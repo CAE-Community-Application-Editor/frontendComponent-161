@@ -61,7 +61,7 @@ var loadSongs = function(){
   client.sendRequest("GET", "songs", "", "", {}, false,
   function(data, type) {
      
-console.log(data);
+consasd.log(data);
   },
   function(error) {
     console.log(error);
